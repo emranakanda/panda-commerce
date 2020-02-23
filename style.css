@@ -2,6 +2,27 @@ body {
     font-family: 'Poppins',sans-serif;
 }
 
+.container {
+    margin-bottom: 100px;
+}
+
 .bg-orange{
     background-color: #feeae9;
+    border-radius: 15px;
+}
+
+.carousel-item {
+    padding: 20px 40px;
+}
+
+.price {
+    color: #FF136F;
+}
+
+.buy-now-btn {
+    margin-top: 20px;
+    background-image: linear-gradient(to bottom, #FF58B9,#FF136F 100%);
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
 }
