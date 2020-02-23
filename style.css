@@ -3,7 +3,7 @@ body {
 }
 
 .container {
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 .bg-orange{
@@ -20,9 +20,33 @@ body {
 }
 
 .buy-now-btn {
-    margin-top: 20px;
-    background-image: linear-gradient(to bottom, #FF58B9,#FF136F 100%);
     border: none;
-    border-radius: 8px;
+    color: white;
+    margin-top: 20px;
     padding: 9px 25px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    background-image: linear-gradient(to bottom, #FF58B9,#FF136F 100%);
+}
+
+.category h1{
+    color: white;
+    font-weight: 500;
+}
+
+.cat-1, .cat-2, .cat-3 {
+    padding: 10px 30px;
+    border-radius: 15px;
+}
+
+.cat-1 {
+    background-color: orange;
+}
+
+.cat-2 {
+    background-color: #FF136F;
+}
+
+.cat-3 {
+    background-color: blue;
 }
