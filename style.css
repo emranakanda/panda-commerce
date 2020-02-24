@@ -34,6 +34,11 @@ body {
     font-weight: 500;
 }
 
+.category-bg {
+    background-color: #F8F8F8;
+    padding: 50px 0;
+}
+
 .cat-1, .cat-2, .cat-3 {
     padding: 10px 30px;
     border-radius: 15px;
@@ -49,4 +54,14 @@ body {
 
 .cat-3 {
     background-color: blue;
+}
+
+.card-deck {
+    text-align: center;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
 }
