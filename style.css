@@ -65,3 +65,15 @@ body {
     border-radius: 10px;
     box-shadow: 5px 5px 10px lightgray;
 }
+
+#subscription {
+    margin-top: 80px;
+}
+
+.subscription {
+    padding: 50px 0;
+}
+
+small {
+    text-align: center;
+}
